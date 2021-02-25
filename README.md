@@ -3,6 +3,7 @@
 The terraform code will provision 2 ec2 instance in the defualt VPC. To install Jenkins and Tomcat, it uses the user_data option.
 
 There are two sh files for Tomcat and Jenkins we provide for user_data.
+
 #[tomcat.sh](http://tomcat.sh/)
 
 - It will install Java 1.8
