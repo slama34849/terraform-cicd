@@ -4,7 +4,7 @@ The terraform code will provision 2 ec2 instance in the defualt VPC. To install 
 
 There are two sh files for Tomcat and Jenkins we provide for user_data.
 
-#[tomcat.sh](http://tomcat.sh/)
+#tomcat.sh
 
 - It will install Java 1.8
 - Add java path to ~/.bash_profile file
@@ -12,8 +12,7 @@ There are two sh files for Tomcat and Jenkins we provide for user_data.
 - Comment a line in context.xml to being able to login from browser.
 - Add new user to tomcat-user.xml
 
-#[jenkins.sh](http://jenkins.sh/)
-
+#jenkins.sh
 - Install java and add path to ~/bash_profile
 - Download required repo and install jenkins
 - Install Git
